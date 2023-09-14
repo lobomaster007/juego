@@ -1,24 +1,39 @@
 var animales = [
     {
         nombre: "titi",
-        informacion: "El Titi Boliviano es un pequeño primate endémico de Bolivia que se encuentra en los bosques tropicales.",
+        informacion: "El Titi Boliviano es un pequeño primate endemico de Bolivia que se encuentra en los bosques tropicales.",
         imagen: "titi.jpg"
     },
     {
         nombre: "delfin",
-        informacion: "El Delfín del Amazonas es un delfín de agua dulce que habita en la cuenca del Amazonas.",
+        informacion: "El Delfin del Amazonas es un delfin de agua dulce que habita en la cuenca del Amazonas.",
         imagen: "delfin.jpg"
     },
     {
         nombre: "rana",
-        informacion: "La Rana Gigante de Titicaca es una especie de rana endémica del lago Titicaca, conocida por su gran tamaño.",
+        informacion: "La Rana Gigante de Titicaca es una especie de rana endemica del lago Titicaca, conocida por su gran tamaño.",
         imagen: "rana.jpg"
     },
     {
         nombre: "condor",
-        informacion: "El condor andino es un animal endemico de los Andes en América del Sur y es el ave voladora más grande del mundo en términos de envergadura alar.",
+        informacion: "El condor andino es un animal endemico de los Andes en America del Sur y es el ave voladora mas grande del mundo en terminos de envergadura alar.",
         imagen: "condor.jpg"
     },
+    {
+        nombre: "picaflor",
+        informacion: "El Picaflor de Juan Fernández es un colibrí endémico de la isla Robinson Crusoe en Chile, conocido por su colorido plumaje.",
+        imagen: "picaflor.jpg"
+    },
+    {
+        nombre: "oso",
+        informacion: "El Oso de Anteojos es un oso sudamericano que se encuentra en los Andes de América del Sur, conocido por su marca facial distintiva.",
+        imagen: "oso.jpg"
+    },
+    {
+        nombre: "iguana",
+        informacion: "La Iguana de las Galápagos es una especie de iguana endémica de las Islas Galápagos en Ecuador, famosa por su adaptación única al entorno marino.",
+        imagen: "iguana.jpg"
+    }
     // podemos ir agregando mas opciones aqui
 ];
 
