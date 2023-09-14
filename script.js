@@ -14,6 +14,11 @@ var animales = [
         informacion: "La Rana Gigante de Titicaca es una especie de rana endémica del lago Titicaca, conocida por su gran tamaño.",
         imagen: "rana.jpg"
     },
+    {
+        nombre: "condor",
+        informacion: "El condor andino es un animal endemico de los Andes en América del Sur y es el ave voladora más grande del mundo en términos de envergadura alar.",
+        imagen: "condor.jpg"
+    },
     // podemos ir agregando mas opciones aqui
 ];
 
