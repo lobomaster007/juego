@@ -1,0 +1,121 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilos para los contenedores */
+div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    width: 80%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+/* Estilos para los elementos de juego */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#informacion {
+    margin-top: 20px;
+}
+
+/* Estilos para el botón de inicio */
+#btnIniciar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btnIniciar:hover {
+    background-color: #45a049;
+
+}
+.imagen-animal {
+    max-width: 200px; /* Ancho máximo de la imagen */
+    max-height: 200px; /* Alto máximo de la imagen */
+}
+
+/* Estilos para las imágenes de animales */
+.imagen-animal {
+    max-width: 200px; /* Ancho máximo de la imagen */
+    max-height: 200px; /* Alto máximo de la imagen */
+}
+
+/* Estilos para el botón "Iniciar de Nuevo" */
+#btnIniciar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px auto; /* Centro horizontalmente */
+    cursor: pointer;
+    border-radius: 5px;
+    display: block; /* Hacer que ocupe todo el ancho disponible */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+}
+.imagen-animal.ganador {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño de la imagen */
+    transition: transform 0.5s ease-in-out; /* Transición suave durante 0.5 segundos */
+}

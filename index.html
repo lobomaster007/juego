@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Juego de Adivinanza de Animales Endemicos de Bolivia</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Juego de Adivinanza de Animales Endemicos de Bolivia</h1>
+   
+    <div id="juego" style="display: none;">
+        <p>¡Adivina el animal endemico de Bolivia en el que estoy pensando!</p>
+        <label for="respuesta">Tu respuesta:</label>
+        <input type="text" id="respuesta" />
+        <button onclick="comprobarRespuesta()">Comprobar</button>
+        <p id="mensaje"></p>
+        <div id="informacion"></div>
+        <button id="btnIniciar" onclick="iniciarJuego()" style="display: none;">Iniciar de Nuevo</button>
+    </div>
+    <footer>
+        <p>Creado por: Alejandro Villalobos Chambi</p>
+        <p>Colegio: Jesus Obrero Secundaria     Curso: Cuarto Verde</p>
+        <p>Contacto: alethanos1001@gmail.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
